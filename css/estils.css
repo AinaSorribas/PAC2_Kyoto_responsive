@@ -78,10 +78,17 @@ a{
     display: flex;
     justify-content: center;
 }
+
+
 .logo{
     font-size: 2rem;
+    transition: font 300ms ease-out 31ms, letter-spacing 300ms ease-out 31ms;
     
 }
+.logodiv:hover .logo{
+    letter-spacing: 6px;
+}
+
 nav a:visited{
     color: white;
 }
