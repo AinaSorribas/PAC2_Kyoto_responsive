@@ -200,7 +200,7 @@ iframe{
     font-family: 'lora', sans-serif;
     position: relative;
     margin-bottom: 1rem;
-    list-style-image: url(./src/img/tori2.png); 
+    list-style-image: url(.../src/img/tori2.png); 
   }
   .navdetall{
     display: flex;
