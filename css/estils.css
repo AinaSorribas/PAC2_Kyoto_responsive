@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .home{
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.0) 100%),url(./../src/img/arashiyama.jpg);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.0) 100%),url(./../src/img/arashiyamamobil.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -354,7 +354,11 @@ footer img{
 
 @media (768px < width <= 1024px ) { /******************TABLET*/
 
-        nav {
+    .home{
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.0) 100%),url(./../src/img/arashiyamatablet.jpg);
+    }
+
+    nav {
         text-align: center;
         padding-top:1rem;
         
@@ -490,7 +494,9 @@ footer img{
 
 @media (width > 1024px) { /*****************************DESKTOP*/
    
-    
+    .home{
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.0) 100%),url(./../src/img/arashiyamamobil.jpg);
+    }
     nav {
         text-align: right;
         padding-right: 2.5rem;
